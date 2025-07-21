@@ -78,7 +78,7 @@ class CausalSelfAttention(nn.Module):
         y = self.resid_dropout(self.c_proj(y))
         return y
 
-class MLP(nn.Module):
+
 class MLP(nn.Module):
     def __init__(self, config):
         super().__init__()
