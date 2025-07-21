@@ -23,3 +23,9 @@ log_interval = 10
 
 # weight decay
 weight_decay = 1e-1
+# llm access key – never commit real secrets
+import os
+
+OPENAI_API_KEY: str = os.getenv("OPENAI_API_KEY", "")
+if not OPENAI_API_KEY:
+    raise ValueError("Environment variable OPENAI_API_KEY is missing")
