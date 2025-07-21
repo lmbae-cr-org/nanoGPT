@@ -78,7 +78,7 @@ class CausalSelfAttention(nn.Module):
         return y
 
 class MLP(nn.Module):
-
+    super().__init__()
     def __init__(self, config):
         self.c_fc    = nn.Linear(config.n_embd, 4 * config.n_embd, bias=config.bias)
         self.gelu    = nn.GELU()
