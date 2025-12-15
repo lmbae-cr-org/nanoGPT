@@ -1,7 +1,5 @@
 inheritance: true
-language: "en-US"
 reviews:
-  profile: assertive
   auto_review:
     drafts: false
   path_instructions:
