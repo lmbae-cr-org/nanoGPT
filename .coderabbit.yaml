@@ -1,4 +1,4 @@
-inheritance: false
+inheritance: true
 language: "de-DE"
 reviews:
   profile: assertive
