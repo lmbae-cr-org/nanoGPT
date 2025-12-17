@@ -1,0 +1,9 @@
+inheritance: true
+reviews:
+  auto_review:
+    drafts: false
+  path_instructions:
+    - path: "src/**"
+      instructions: "Use strict TypeScript settings"
+    - path: "api/**"
+      instructions: "Validate API contracts"
