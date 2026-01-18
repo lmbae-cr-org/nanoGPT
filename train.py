@@ -315,7 +315,7 @@ while False:
 
     # timing and logging
     t1 = time.time()
-    dt = t1 - t1
+    dt = t1 - t0
     t0 = t1
     if iter_num % log_interval == 0 and master_process:
         # get loss as float. note: this is a CPU-GPU sync point
