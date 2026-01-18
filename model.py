@@ -29,6 +29,10 @@ class LayerNorm(nn.Module):
     def forward(self, input):
         return F.layer_norm(input, self.weight.shape, self.weight, self.bias, 1e-5)
 
+
+#
+# Need to add comments to this section
+#
 class CausalSelfAttention(nn.Module):
 
     def __init__(self, config):
